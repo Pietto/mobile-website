@@ -1,0 +1,305 @@
+@media only screen and (max-width: 720px){
+	body{
+		font-family: archivo;
+		padding-top: 50px;
+	}
+	#banner-content1,#banner-content2,#desktop-topbar,#directory{
+		display: none;
+	}
+	#mobile-topbar{
+		background-color: rgba(255,255,0,0.9);
+		height: 50px;
+		width: 100%;
+		position: fixed;
+		top: 0px;
+		z-index: 1;
+	}
+	.dropbtn{
+		background-image: url('img/bars-white.png');
+		width: 45px;
+		height: 35px;
+		margin: 10px;
+		background-size: 32px, 25px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-color: rgba(0,0,0,0);
+		border: 1px solid rgba(150,150,150,1);
+	}
+	#bars-black{
+		position: relative;
+		left: 10px;
+		top: 10px;
+		height: 20px;
+		padding: 7px;
+		border: 1px solid rgba(150,150,150,1);
+	}
+	#pietto-rijschool-logo{
+		position: absolute;
+		left: 40%;
+		top: 60px;
+		height: 6%;
+	}
+	#banner{
+		position: relative;
+		top: 20px;
+		width: 100%
+	}
+	#proefles,#locaties,#rijlessen{
+		height: 80px;
+		border-bottom: 1px solid rgba(175,175,175,1);
+		border-width: 50%;
+	}
+	#car-icon,#map-icon,#medal-icon{
+		position: relative;
+		bottom: -30px;
+		left: 10px;
+		height: 50px;
+	}
+	#map-icon{
+		position: relative;
+		top: 22px;
+	}
+	h1{
+		color: rgba(64,64,64,1);
+		display: inline-block;
+		margin: 0px;
+		padding: 0px;
+		position: relative;
+		bottom: -12px;
+		left: 10px;
+		font-size: 30px;
+	}
+	.textholders{
+		margin: 0 auto;
+		width: 90%;
+		font-size: 20px;
+	}
+	#gratisproefles{
+   		width: 100%;
+   		height: 35px;
+		font-family: archivo;
+		font-size: 30px;
+		background-color: yellow;
+		border: 0px solid rgba(0,0,0,0);
+	}
+	span{
+		display: inline;
+		margin: 0px;
+		color: blue;
+	}
+	/*dropdown stuff*/
+	#dropdown{
+		background-color: black;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		height: 50%;
+		width: 40%;
+		opacity: 0.0;
+	}
+	#dropdown>ul>li{
+		color: white;
+		list-style-type: none;
+		position: relative;
+	}
+	iframe{
+		height: 30vw;
+	}
+	.dropdown-content a{
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		transition: 0.3s;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.dropdown-content a:hover{
+		background-color: rgba(255,255,0,1);
+		transition: 0.3s;
+		color: rgba(100,100,100,1);
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.dropdown-content{
+		display: none;
+		position: absolute;
+		background-color: rgba(255,255,255,1);
+		width: 250px;
+		overflow: auto;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+}
+@media only screen and (min-width: 720px){
+	body{
+		font-family: archivo;
+		margin: 0px;
+		padding-top: 40px;
+		color: black;
+	}
+	#bars-white,#bars-black,#mobile-topbar,#dropdown{
+		display: none;
+	}
+	#desktop-topbar{
+		position: fixed;
+		top: 0px;
+		background-color: rgba(255,255,0,0.9);
+		width: 100%;
+		height: 40px;
+		z-index: 1;
+	}
+	.contact-info{
+		height: 50px;
+		display: inline-block;
+	}
+	#contact1{
+		position: absolute;
+		left: 5vw;
+	}
+	#contact2{
+		position: absolute;
+		left: 20vw;
+	}
+	#contact3{
+		position: absolute;
+		left: 36vw;
+	}
+	#contact4{
+		position: absolute;
+		left: 59vw;
+	}	
+	#smartphone-icon,#phone-icon,#clock-icon,#dashboard-icon{
+		height: 25px;
+		position: relative;
+		top: 5px;
+	}
+	#icontext{
+		position: relative;
+		top: -35px;
+		left: 30px;
+		font-size: 15px;
+	}
+	#SMlogos{
+		position: absolute;
+		right: 50px;
+	}
+	#SMlogos>img{
+		height: 19px;
+		margin-left: 5px;
+		margin-right: 5px;
+		position: relative;
+		top: 10px;
+	}
+	#directory{
+		position: absolute;
+		top: 85px;
+		left: 400px;
+	}
+	#pietto-rijschool-logo{
+		position: relative;
+		width: 350px;
+		margin: 10px;
+	}
+	#banner{
+		width: 100%;
+	}
+	#banner-content1{
+		background-color: yellow;
+		text-align: center;
+		font-size: 2vw;
+		padding: 1px;
+		width: 32vw;
+		position: relative;
+		top: -15vw;
+		left: 50%;
+		margin-left: -16vw;
+	}
+	#banner-content2{
+		margin-top: 3px;
+		background-color: yellow;
+		text-align: center;
+		font-size: 2.2vw;
+		padding: 1px;
+		width: 40vw;
+		position: relative;
+		top: -15vw;
+		left: 50%;
+		margin-left: -20vw;
+	}
+	#banner-content1>h1,#banner-content2>p{
+		margin: 0px;
+	}
+	span{
+		color: blue;
+	}
+	#content{
+		display: grid;
+		grid-gap: 0px;
+		grid-template: 7vw / auto;
+		margin-bottom: 10px;
+	}
+	#proefles{
+		grid-row: 1;
+		grid-column: 1/2;
+	}
+	#locaties{
+		grid-row: 1;
+		grid-column: 2/3;
+	}
+	#rijlessen{
+		grid-row: 1;
+		grid-column: 3/4;
+	}
+	#proefles,#locaties,#rijlessen{
+		width: 20vw;
+		text-align: left;
+	}
+	#gratisproefles{
+		width: 100%;
+		background-color: yellow;
+		border: none;
+		height: 50px;
+	}
+	.textholders,#proefles,#locaties,#rijlessen{
+		width: 25vw;
+		margin: 0 auto;
+	}
+	#proefles>h1,#locaties>h1,#rijlessen>h1{
+		position: relative;
+		top: -7vw;
+		left: 6vw;
+		font-size: 3.5vw;
+	}
+	#rijlessen>h1{
+		left: 5vw;
+	}
+	#proefholder{
+		grid-row: 2;
+		grid-column: 1/2;
+	}
+	#locatiesholder{
+		grid-row: 2;
+		grid-column: 2/3;
+	}
+	#rijlessenholder{
+		grid-row: 2;
+		grid-column: 3/4;
+	}
+	#car-icon,#map-icon,#medal-icon{
+		position: relative;
+		left: 0vw;
+		width: 6vw;
+	}
+	#car-icon{
+		top: 0.5vw;
+	}
+	iframe{
+		height: 30vw;
+		width: 70vw;
+		position: relative;
+		left: 50%;
+		margin-left: -35vw;
+		margin-top: 20px;
+	}
+}
