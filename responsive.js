@@ -1,22 +1,22 @@
+var myDropdown = document.getElementById('myDropdown');
+var dropdownbtn = document.getElementById('dropdownbtn');
+var dropdownbtn2 = document.getElementById('dropdownbtn2');
+
 function show() {
-	document.getElementById('myDropdown').style.display='block';
-	document.getElementById('dropdownbtn').onclick=hide;
+	myDropdown.style.display='block';
+	dropdownbtn.onclick=hide;
+	myDropdown.style.top='50px';
 }
 function hide(){
-	document.getElementById('myDropdown').style.display='none';
-	document.getElementById('dropdownbtn').onclick=show;
+	myDropdown.style.display='none';
+	dropdownbtn.onclick=show;
 }
-
-
-
-
-
 function show2() {
-	document.getElementById('myDropdown').style.display='block';
-	document.getElementById('dropdownbtn2').onclick=hide2;
-	document.getElementById('myDropdown').style.top='500px';
+	myDropdown.style.display='block';
+	dropdownbtn2.onclick=hide2;
+	myDropdown.style.top='110px';
 } 
 function hide2(){
-	document.getElementById('myDropdown').style.display='none';
-	document.getElementById('dropdownbtn2').onclick=show2;
+	myDropdown.style.display='none';
+	dropdownbtn2.onclick=show2;
 }
